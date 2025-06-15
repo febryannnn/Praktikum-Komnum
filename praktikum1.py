@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 def f(x):
     return x**3 - 4*x - 9 
 
-# Implementasi Regula Falsi
+# Fungsi Regula Falsi
 def regula_falsi(f, a, b, tol=1e-5, max_iter=100):
     if f(a) * f(b) >= 0:
         print("Fungsi tidak berubah tanda di [a, b].")
